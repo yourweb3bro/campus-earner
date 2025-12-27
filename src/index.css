@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import 'tailwind-scrollbar-hide/v4';
+
+@theme {
+  --color-*: initial;
+  --color-black: rgb(0, 0, 0);
+  --color-black-alt: rgb(20, 21, 20);
+  --color-white: rgb(255, 255, 255);
+  --color-white-alt: rgb(147, 149, 148);
+  --color-primary: rgb(0, 228, 76);
+  --color-btn-bg: var(--color-black-alt);
+  --color-bg: var(--color-black);
+  --color-card-category-green: rgba(0, 228, 76, 0.4);
+
+  
+  --color-green: rgb(59, 193, 119);
+  --color-blue: rgb(79, 169, 255);
+  --color-purple: rgb(161, 120, 255);
+  --color-orange: rgb(255, 168, 111);
+  --color-yellow: rgb(255, 216, 111);
+  --color-ash: rgb(176, 176, 176);
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Poppins", system-ui, sans-serif;
+  color: white;
+}
+
+img {
+  pointer-events: none;
+}
